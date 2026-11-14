@@ -28,15 +28,15 @@ export default function TaskItem({ taskId, taskTitle, taskState, onUpdateTask, o
   }
 
   if (isEditing) {
-    return <input type="text" value={editableTitle} onChange={onChangeTitle} onKeyPress={onKeyPress} />
+    return <input className="onEditTitle" type="text" value={editableTitle} onChange={onChangeTitle} onKeyPress={onKeyPress} />
   } else {
     return (
       <div className="Task">
-        <div onClick={(e) => SetIsEditing(true)}>{editableTitle}</div>
+        <div className="taskTitle" onClick={(e) => SetIsEditing(true)}>{editableTitle}</div>
         <select onChange={onTaskStateChange} value={taskState}>
           <option value="Pendente">Pendente</option>
           <option value="Em Andamento">Em Andamento</option>
-          <option value="Concluida">Concluido</option>
+          <option value="Concluida">Concluida</option>
         </select>
       </div>
     )
