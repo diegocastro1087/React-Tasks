@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  color: white;
+}
+
+body,
+html {
+  margin: 0;
+  background-color: rgb(106, 161, 255);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.App .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 8px;
+  max-width: 800px;
+  margin: auto;
+  width: 100%;
+}
