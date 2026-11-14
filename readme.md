@@ -1,5 +1,7 @@
 # 📋 Gerenciador de Tarefas (Kanban React)
 
+Link para o projeto: (https://react-tasks-diegoproject.vercel.app/)
+
 Uma aplicação web simples e interativa de gerenciamento de tarefas inspirada no modelo Kanban, desenvolvida em **React**. O projeto permite criar, editar, mover tarefas entre diferentes status (Pendente, Em Andamento e Concluída) e excluir itens de forma dinâmica.
 
 ---
